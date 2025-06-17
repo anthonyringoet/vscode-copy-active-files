@@ -1,0 +1,24 @@
+{
+  "name": "copy-active-files",
+  "displayName": "Copy Active Files",
+  "description": "Copy relative paths of all open files with @ prefix",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "activationEvents": [],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "copy-active-files.copyAll",
+      "title": "Copy All Active File Paths"
+    }]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0"
+  },
+  "license": "MIT"
+}
