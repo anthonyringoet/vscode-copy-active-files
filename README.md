@@ -1,6 +1,6 @@
 # Copy Active Files
 
-A VS Code/Cursor extension that copies the relative paths of all open files with an "@" prefix. Improvement over built-in "File: Copy path of active file"
+A VS Code/Cursor extension that copies the relative paths of all open files with an `@` prefix, ideal to get them all to an external AI coding agent like Claude Code. Improvement over built-in `File: Copy Path of Active File`.
 
 ## Usage
 
